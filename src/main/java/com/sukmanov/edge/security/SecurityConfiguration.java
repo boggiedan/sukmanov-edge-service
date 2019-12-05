@@ -8,5 +8,5 @@ import org.springframework.context.annotation.Configuration;
 public class SecurityConfiguration {
 
     @Bean
-    public JwtConfig JwtConfig() { return new JwtConfig(); }
+    public JwtConfig jwtConfig() { return new JwtConfig(); }
 }
