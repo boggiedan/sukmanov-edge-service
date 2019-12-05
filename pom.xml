@@ -8,7 +8,7 @@
         <version>2.2.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.sukmanov.edge</groupId>
+    <groupId>com.sukmanov</groupId>
     <artifactId>sukmanov-edge-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sukmanov-edge-service</name>
@@ -48,9 +48,10 @@
         </dependency>
 
         <dependency>
-            <groupId>com.sukmanov.common</groupId>
-            <artifactId>sukmanov-common-service</artifactId>
+            <groupId>com.sukmanov</groupId>
+            <artifactId>sukmanov-configuration-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <classifier>sukmanov-configuration-service</classifier>
         </dependency>
 
         <dependency>
