@@ -1,7 +1,6 @@
 package com.sukmanov.edge.security;
 
 import com.sukmanov.configuration.security.JwtConfig;
-import com.sukmanov.configuration.security.JwtTokenAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
